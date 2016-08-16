@@ -1,0 +1,114 @@
+@keyframes opacity{
+    from{opacity:0}
+}
+
+.form .btn-primary{
+    background:linear-gradient(-90deg, #24CCAA, #A2DB95);
+    border-radius:100px;
+    text-transform:uppercase;
+    font-size:15px;
+    font-weight:600;
+    transition:all 500ms ease;
+    letter-spacing:1px
+}
+.form .btn-primary:hover{
+    animation:button-wiggle 500ms cubic-bezier(.58,-0.22,.26,1.34);
+    background:linear-gradient(-90deg, #22B495, #8DC184)
+}
+@keyframes button-wiggle{
+    0%{transform:scale(1)}
+    30%{transform:scale(1.2)}
+    60%{transform:scale(.8)}
+    80%{transform:scale(1.05)}
+    90%{transform:scale(.95)}
+}
+.scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+  background: transparent !important;
+}
+
+.scroller-wrap .scroller::-webkit-scrollbar-thumb {
+  background: #4ABF9E !important;
+}
+
+.scroller-wrap .scroller::-webkit-scrollbar-thumb:hover {
+  background: #4ABF9E !important;
+}
+
+.scroller-wrap .scroller::-webkit-scrollbar-thumb:active {
+  background: #78CFB7 !important;
+}
+.tab-bar.TOP .tab-bar-item.selected{
+    border-color:#44696C;
+    color:#44696C;
+}
+.tab-bar.TOP .tab-bar-item{
+    color:#A4B6B7;
+    text-transform:uppercase;
+}
+.settings .settings-header{
+    background:linear-gradient(-90deg, #2E767A, #44A781);
+}
+.tab-bar.SIDE .tab-bar-item{
+    color:#fff;
+    opacity:0.8;
+    font-weight:600;
+    transition:all 100ms ease;
+}
+.tab-bar.SIDE .tab-bar-item:hover{
+    color:#fff;
+    opacity:0.8;
+    font-weight:600;
+    background:rgba(255,255,255,.2);
+}
+.tab-bar.SIDE .tab-bar-item.selected{
+    color:#fff;
+    opacity:1;
+    font-weight:600;
+    background:rgba(255,255,255,.25);
+}
+.tab-bar.SIDE .tab-bar-item:before{
+    display:none
+}
+.checkbox .checkbox-inner span,
+.checkbox .checkbox-inner input[type=checkbox]:checked+span{
+    border-radius:50%;
+    border:2px solid #117787;
+    background:transparent;
+}
+.checkbox .checkbox-inner input[type=checkbox]:checked+span:after{
+    border-color:#117787;
+    transform:scale(0.7)rotate(45deg);
+    animation:opacity 150ms ease
+}
+.checkbox:active .checkbox-inner span{
+    opacity:0.7
+}
+.form .Select-control{
+    border:none!important;
+}
+.Select-arrow{
+    border-top-color:#44696C
+}
+.Select-placeholder{
+    color:#44696C!important;
+    font-weight:600
+}
+.form .control-group label{
+    color:#95AAAB
+}
+.user-settings-modal a{
+    color:#44696C!important;
+    opacity:.9
+}
+.user-settings-modal a:hover{
+    opacity:1
+}
+.slider-handle{
+    border:none;
+background:#1C8796}
+.slider-bar{
+    background:#E8F0E1
+}
+.slider-bar-fill{
+    background:#1C8796;
+}
