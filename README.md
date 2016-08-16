@@ -1,1 +1,1 @@
-# Pokemon-GO-theme
+# Pokémon GO theme for Discord
